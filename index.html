@@ -1,14 +1,9 @@
-<html manifest="offline.cache"> 
+<html manifest="offline.cache">
 <head> 
 <title></title>
-<link rel="stylesheet prefetch" href="./files/style2.css">
+<link rel="stylesheet prefetch" href="files/style2.css">
 </head>
-<body style="size:auto; height:auto; background:url('./files/img/11.jpg') no-repeat; background-size: cover; color:white;">
-<div style="text-align:center">
-<p style="color:white; font-size:30px; margin-top: 20px;">Main Menu<img src="./files/img/PopUp.png" alt="text" style="height: 40px; width: 60px; float: right;"/></p>
-<hr>
-</div>
-
+<body style="size:auto; height:auto; background:url('./files/img/10.jpg') no-repeat; background-size: cover; color:white;">
 
 <div id=ScrOverlay class=cacheUPDbg><pre id=cacheUPDtxt class=cacheUPD></pre><div id=CacheProgress><div id=CacheBar></div></div></div>
 <input autofocus="autofocus" type="range" id="NOUP" style="opacity:0;display:none;">
@@ -29,7 +24,7 @@
 <div id=MainMenu class=MenuPos>
 
 <div  PL-Title="Extras"         PL-Bin="SUBMENU 1"         PL-Ver=""             PL-Desc="Extras" class="Box Icon2"><img src="files/img/psn.png"></div
-
+  
 ><div  PL-Title="FTP"          PL-Bin onclick="load_ftp(); return false";     PL-Ver="v1.3.2 - By LightningMods"  PL-Desc="A full access FTP server for the PS4. Connect your FTP client to the IP address that the popup message tells you. The FTP port number is 1337." class="Box Icon"><img src="files/img/ftp.png"></div
 
 ><div PL-Title="Hen"    PL-Bin onclick="load_exploit_HEN(); return false" PL-Ver="v2.1.3 - By SiSTRo" PL-Desc="Enable Homebrew, Enable Debug Settings, Enable External HDD Support, <br>PSVR Support via Firmware Spoof to v7.02, Remote PKG Installer Support, <br>Full Rest Mode Support, 7.xx External HDD Support, Debug Trophies Support."  class="Box Icon"><img src="files/img/hen.png"></div
@@ -38,31 +33,8 @@
 
 ><div PL-Title="Ren"            PL-Bin onclick="load_exploit_mira_ren(); return false"   PL-Ver="v1.0.0 - By SiSTRo"       PL-Desc="PS4 Remote Play Enabler.<br><br>Use this to allow you to register a device for remote play.<br>NOTE: The PS button is disabled during use so use the Circle button to return to the home menu." class="Box Icon"><img src="files/img/ren.png"></div
 
-><div  PL-Title="Disable Update"        PL-Bin onclick="load_updatesdisable(); return false"  PL-Ver="v1.0.0"  PL-Desc="Disables firmware updates by creating dummy directories where updates are be downloaded." class="Box Icon"><img src="files/img/DU.png"></div
 
-><div  PL-Title="Enable Update"      PL-Bin onclick="load_updatesenable(); return false"     PL-Ver="v1.0.0"  PL-Desc="Disables firmware updates by creating dummy directories where updates are be downloaded." class="Box Icon"><img src="files/img/EU.png"></div
-
-><div  PL-Title="History Blocker"              PL-Bin onclick="load_historyblock(); return false"     PL-Ver="v1.0.0 - By Stooged
-"  PL-Desc="Blocks the browser from remembering and returning to the last opened page on start. Run again to enable/disable.
-" class="Box Icon"><img src="files/img/H.png"></div
-
-><div  PL-Title="Backup Data"              PL-Bin onclick="load_dbBackup(); return false"     PL-Ver="v1.0.0 - By Stooged"  PL-Desc="Backs up your PS4's databases, licenses, and user data. Note this may not be useful if you have to reinitalize as your keys may change." class="Box Icon"><img src="files/img/BD.png"></div
-
-><div  PL-Title="Restore Data"              PL-Bin onclick="load_dbRestore(); return false"      PL-Ver="v1.3.2 - By Stooged"  PL-Desc="Restores the data saved in the 'Backup' payload." class="Box Icon"><img src="files/img/RD.png"></div
-
-><div  PL-Title="Dump Game"              PL-Bin onclick="load_dumper(); return false"     PL-Ver="v1.0.0 - By XVortex"  PL-Desc="Dumps and decrypts applications to USB. Can be configured with `dumper.cfg` on the USB drive." class="Box Icon"><img src="files/img/CB.png"></div
-
-><div  PL-Title="ToDEX"              PL-Bin onclick="load_todex(); return false"     PL-Ver="v1.3.2 - By LightningMods"  PL-Desc="A full access FTP server for the PS4. Connect your FTP client to the IP address that the popup message tells you. The FTP port number is 1337." class="Box Icon"><img src="files/img/DEX.png"></div
-
-><div  PL-Title="Kernel Dump"              PL-Bin onclick="load_kerneldump(); return false"     PL-Ver="v1.0.0 - By Eversion"  PL-Desc="Dumps your PS4's kernel to USB." class="Box Icon"><img src="files/img/Kernel.png"></div
-
-><div  PL-Title="WebRTE"              PL-Bin onclick="load_webrte(); return false"     PL-Ver="v1.3.2 - By LightningMods"  PL-Desc="A full access FTP server for the PS4. Connect your FTP client to the IP address that the popup message tells you. The FTP port number is 1337." class="Box Icon"><img src="files/img/RTE.png"></div
-
-><div  PL-Title="App To USB"              PL-Bin onclick="load_app2usb(); return false"     PL-Ver="v1.0.0 - By Stooged"  PL-Desc="Unofficial external drive support for applications. Reads `app2usb.ini` from the external drive for options. The FTP port number is 1337." class="Box Icon"><img src="files/img/USB.png"></div
-
-><div PL-Title="Fan Control"     PL-Bin onclick="window.location.href='./files/Fan.html'"       PL-Ver="v4.0 - By Leeful"   PL-Desc="Click to load...." class="Box Icon"><img src="files/img/FanControl.png"></div
-
-><div PL-Title="Apps Store"     PL-Bin onclick="window.location.href='./files/appstore.html'"       PL-Ver="v1.0 - By Shaby"   PL-Desc="Click to load...." class="Box Icon"><img src="files/img/psStore.png"></div
+><div PL-Title="Fan Control"     PL-Bin onclick="window.location.href='./files/Fan.html'"       PL-Ver="v4.0 - By Leeful"   PL-Desc="Please wait loading...." class="Box Icon"><img src="files/img/FanControl.png"></div
 
 ><div PL-Title="Info"           PL-Bin="INFO"              PL-Ver=""             PL-Desc="Linux Info & Credits." class="Box Icon2"><img src="files/img/info.png"></div
 
@@ -75,32 +47,21 @@
 
 <div PL-Title="Bin Loader"       PL-Bin onclick="load_exploit(); return false"   PL-Ver="v1.0 - By Specter"  PL-Desc="Listens for binary payloads on port 9021." class="Box Icon"><img src="files/img/BL.png"></div
 
-><div PL-Title="Linux 5.3.18" 	    PL-Bin="Linuxgentoo.bin"   PL-Ver="kernel 5.3.18" PL-Desc="Linux Gentoo with Gentoo-Sources Kernel.<br><br>vram: 2GB<br><br>Autoboot: yes" class="Box Icon"><extra></extra><img src="files/img/Linux.png"></div
-
-><div PL-Title="Linux 4.19.98" 	PL-Bin="Linuxgentoo419.bin" PL-Ver="kernel 4.19.44" PL-Desc="Linux with Gentoo-Sources Kernel.<br><br><br><br> Autoboot: yes" class="Box Icon"><extra></extra><img src="files/img/linux.svg"></div
-
-><div PL-Title="Linux 4.14.98" 	PL-Bin="Linuxpsxita.bin" PL-Ver="kernel 4.14.98" PL-Desc="Linux with Vanilla-Sources Kernel.<br><br>Orginal PSXita Kernel<br><br> Autoboot: yes" class="Box Icon"><extra></extra><img src="files/img/linux.svg"></div
-
-><div PL-Title="Linux Internal" PL-Bin="Linuxinternal3G.bin" PL-Ver="no Kernel"    PL-Desc="A Linux Loader to run Linux from the PS4 internal HDD.<br><br>bzimage+initramfs >>>/data/linux/boot <br><br> Distro >>>/data/linux/" class="Box Icon"><extra></extra><img src="files/img/hdd.png"></div
-
-><div PL-Title="Linux USB"      PL-Bin="Linuxusb.bin"      PL-Ver="By eeply"     PL-Desc="A Linux Loader to run Rescue/Shell from the USB Stick<br><br> for psxitarch psxita.it" class="Box Icon"><extra></extra><img src="files/img/usb2.png"></div
-
 ></div></div>
 <div id=navFix1 tabindex="1"></div><div id=navFix2 tabindex="2"></div><div id=navFix3 tabindex="3"></div>
-<div id=InfoBox style=display:none><div id=InfoTitle></div><div id=InfoVerAuth></div><div id=InfoDesc></div></div>
-
 <div id=Loader class=Loader></div>
+<div id=InfoBox style=display:none><div id=InfoTitle></div><div id=InfoVerAuth></div><div id=InfoDesc></div></div>
 <div id=Clock class=Info1></div>
 <div id=Ktime class=Info2></div>
 <div id=OffFW class=Info1></div>
 <div id=SpoFW class=Info2></div>
 <div id=FanTemp class=Info1></div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%">
 
-<h1 id=msgs style='font-size:25px;text-align:center;'>6.72 Exploit Menu Pro</h1>
+<h1 id=msgs style='font-size:25px;text-align:center;'>6.72 Exploit Menu Lite</h1>
 
 <img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%"><img src="./files/img/ps4.png" alt="ps4" style="width:2%">
 
@@ -149,86 +110,9 @@ var script = document.createElement('script');script.src = "./files/pl_ftp.js";d
 var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-function load_dumper(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Dumper ...</h1>";
-LoadedMSG="Dumper Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_linux(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Linux ...</h1>";
-LoadedMSG="Linux Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_linux.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_app2usb(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading AppToUSB ...</h1>";
-LoadedMSG="AppToUSB Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_app2usb.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_kerneldump(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Kernel Dumper ...</h1>";
-LoadedMSG="Kernel Dumper Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_kernelDumper.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_webrte(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading WebRTE ...</h1>";
-LoadedMSG="WebRTE Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_WebRTE.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_todex(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading ToDEX ...</h1>";
-LoadedMSG="ToDEX Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_ToDEX.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_historyblock(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading History Blocker ...</h1>";
-LoadedMSG="History Blocker Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_historyBlocker.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_updatesdisable(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Disable Updates ...</h1>";
-LoadedMSG="Disable Updates Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_updatesDisable.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_updatesenable(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Enable Updates ...</h1>";
-LoadedMSG="Enable Updates Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_updatesEnable.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_dbBackup(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading DB Backup ...</h1>";
-LoadedMSG="Data Backup Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_dbBackup.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
-
-function load_dbRestore(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading DB Restore ...</h1>";
-LoadedMSG="Data Restore Loaded ✔";
-var script = document.createElement('script');script.src = "./files/pl_dbRestore.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "./files/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-}
 
 </script>
 <div id="inf" style="text-align:center;opacity:0;z-index:9999999999;">2020 - Shaby</div>
-
 <script>
 var SS=sessionStorage;var LS=localStorage;var CC=createCookie;var RC=readCookie;function createCookie(name,value,days){if(days){var date=new Date();date.setTime(date.getTime()+(days*24*60*60*1000));var expires="; expires="+date.toGMTString();}else
 expires="";document.cookie=name+"="+value+expires;}
@@ -277,7 +161,6 @@ function LoadPayload(){Loader.innerHTML='<object type="text/html" data="exploit.
 
 function loadPage(){SS.LastPage='exploit.js';if(Title.innerHTML=='Hen'){SS.ThisIsHen='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
 
-else if(Title.innerHTML=='Patch PS4 Kernel'){SS.ThisIsKernelPatch='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
 
 else if(Title.innerHTML=='Bin Loader'){SS.ThisIsBinLoader='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
 
@@ -287,29 +170,7 @@ else if(Title.innerHTML=='Ren'){SS.ThisIsRen='1';SS.LastPage='files/Loader.html'
 
 else if(Title.innerHTML=='FTP'){SS.ThisIsFTP='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
 
-else if(Title.innerHTML=='Disable Update'){SS.ThisIsDU='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='Enable Update'){SS.ThisIsEU='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='History Blocker'){SS.ThisIsHB='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='Backup Data'){SS.ThisIsBD='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='Restore Data'){SS.ThisIsRD='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='Dump Game'){SS.ThisIsDG='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='ToDEX'){SS.ThisIsTD='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='Kernel Dump'){SS.ThisIsKD='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='WebRTE'){SS.ThisIsWR='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='App To USB'){SS.ThisIsAU='1';SS.LastPage='files/Loader.html';Loader.innerHTML='<object type="text/html" data="files/Loader.html" style="width:265px; height:56px;"></object>';SS.Payload='.files/pl_mira_ren.js';SS.Payload=SubMenu1.children[SM1z].getAttribute('PL-Bin');LoadPayload();}
-
-else if(Title.innerHTML=='Info'){SS.ThisIsInfo='1';SS.LastPage='files/Info.html';ScrOverlay.style.opacity="1";ScrOverlay.style.display="block";ScrOverlay.innerHTML='<object type="text/html" data="files/Info.html" style="width:100%; height:100%;"></object>';}
-
-
+else if(Title.innerHTML=='Info'){SS.ThisIsInfo='1';SS.LastPage='files/Info.html'; ScrOverlay.style.opacity="1";ScrOverlay.style.display="block";ScrOverlay.innerHTML='<object type="text/html" data="files/Info.html" style="width:100%; height:100%;"></object>';}
 
 
 else if(SS.MainMenu==1&&MainMenu.children[SS.ItemNum-1].getAttribute('PL-Bin').includes('SUBMENU')){}
