@@ -55,8 +55,42 @@ html{}body {
 	font-size:22px;
 	overflow:hidden;cursor:auto;
   }
- 
-     
+  /*
+ @keyframes slideBg {
+ 	0% {
+ 	    background-image: url('../files/img/10.jpg');
+ 	}  
+ 	10% {
+ 	    background-image: url('../files/img/11.jpg');
+ 	}
+ 	20% {
+ 	    background-image: url('../files/img/12.jpg');
+ 	}
+ 	30% {
+ 	    background-image: url('../files/img/13.jpg');
+ 	}   	
+ 	40% {
+ 	    background-image: url('../files/img/14.jpg');
+ 	}
+  	50% {
+ 	    background-image: url('../files/img/15.jpg');
+ 	}  
+ 	60% {
+ 	    background-image: url('../files/img/16.jpg');
+ 	}
+ 	70% {
+ 	    background-image: url('../files/img/17.jpg');
+ 	}
+ 	80% {
+ 	    background-image: url('../files/img/12.jpg');
+ 	}
+ 	90% {
+ 	    background-image: url('../files/img/11.jpg');
+ 	}
+ 	100% {
+ 	    background-image: url('../files/img/10.jpg');
+ 	}   */
+    }  
 
 @font-face {font-family:'Icons';font-style:normal;font-weight:900;src: local('Icons'), url(Icons.ttf) format('truetype');
 }
@@ -186,6 +220,10 @@ position:absolute;left:325px;top:0px;height:170px;white-space:nowrap;
 .Title{transition:top 100ms, opacity 100ms;
 position:absolute;font-size:42px;font-weight:lighter;overflow:hidden;white-space:nowrap;
 top:380px;left:525px;width:950px;height:57px;opacity:1;
+}
+.Title1{transition:top 0ms, opacity 0ms;
+position:absolute;font-size:30px;font-weight:medium;overflow:hidden;white-space:nowrap;
+top:0px;left:465px;right:center;opacity:1;
 }
 .TitleAnim{transition:top 100ms, opacity 100ms;
 position:absolute;font-size:42px;font-weight:lighter;overflow:hidden;white-space:nowrap;
